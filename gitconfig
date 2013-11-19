@@ -1,0 +1,30 @@
+[user]
+	name = Brian Clements
+	email = brian@brianclements.net
+	signingkey = 0xda859a87
+[core]
+	editor = gvim -f
+	ignore = all
+	excludesfile = /home/brian/.gitignore_global
+[alias]
+	co = checkout
+	cm = commit -m
+	cma = commit -a -m
+	st = status
+	br = branch
+	ts = tag -s
+	hist = log --all --graph --date=short --pretty=format':%C(yellow)%h%Creset %ad | %s%C(green)%d %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
+	bh = log --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
+	tree = log --all --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
+	tr = log --all --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
+	type = cat-file -t
+	dump = cat-file -p
+	stash-unapply = !git stash show -p | git apply -R
+	tags = tag -l -n1
+	cp = cherry-pick
+[merge]
+	conflictstyle = diff3
+[push]
+	default = tracking
+[branch]
+	autosetuprebase = always
