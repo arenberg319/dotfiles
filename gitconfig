@@ -4,7 +4,7 @@
 	signingkey = 0xda859a87
 [core]
 	editor = gvim -f
-	ignore = all
+	ignore = dirty
 	excludesfile = /home/brian/.gitignore_global
 [alias]
 	co = checkout
