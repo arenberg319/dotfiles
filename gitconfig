@@ -13,10 +13,14 @@
 	st = status
 	br = branch
 	ts = tag -s
-	hist = log --all --graph --date=short --pretty=format':%C(yellow)%h%Creset %ad | %s%C(green)%d %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
-	bh = log --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
-	tree = log --all --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
-	tr = log --all --graph --pretty=format':%C(yellow)%h%C(green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %ar%C(white)]'
+	hist = log --all --graph --pretty=format':%C(yellow)%h%C(bold green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %C(dim red)%ar%C(white)]'
+    hist2 = log --all --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset | %C(dim white)%ad (%ar), %C(blue)%an %n''          * %s%n''            %b%n''%GG%n''%C(dim white)-----------------------------------------------'
+	bhist = log --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %C(dim red)%ar%C(white)]'
+	bhist2 = log --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset | %C(dim white)%ad (%ar), %C(blue)%an %n''          * %s%n''            %b%n''%GG%n''%C(dim white)-----------------------------------------------'
+	hist-blk = log --all --graph --pretty=format:'%h -%d [%an, %ar] | %s'
+    hist2-blk = log --all --graph --pretty=format:'%h%d | %ad (%ar), %an %n''          * %s%n''            %b%n''%GG%n''-----------------------------------------------'
+	bhist-blk = log --graph --pretty=format:'%h%d %s [%an, %ar]'
+	bhist2-blk = log --graph --pretty=format:'%h%d | %ad (%ar), %an %n''          * %s%n''            %b%n''%GG%n''-----------------------------------------------'
 	type = cat-file -t
 	dump = cat-file -p
 	stash-unapply = !git stash show -p | git apply -R
@@ -26,5 +30,7 @@
 	conflictstyle = diff3
 [push]
 	default = tracking
+	autotag = v*.*
+	autotag = v*.*.*
 [branch]
 	autosetuprebase = always
