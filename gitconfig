@@ -17,7 +17,7 @@
     hist2 = log --all --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset | %C(dim white)%ad (%ar), %C(blue)%an %n''          * %s%n''            %b%n''%GG%n''%C(dim white)-----------------------------------------------'
 	bhist = log --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset %s %C(white)[%C(blue)%an%Creset, %C(dim red)%ar%C(white)]'
 	bhist2 = log --graph --pretty=format:'%C(yellow)%h%C(bold green)%d%Creset | %C(dim white)%ad (%ar), %C(blue)%an %n''          * %s%n''            %b%n''%GG%n''%C(dim white)-----------------------------------------------'
-	hist-blk = log --all --graph --pretty=format:'%h -%d [%an, %ar] | %s'
+	hist-blk = log --all --graph --pretty=format:'%h -%d    | %an | %s    [%ar]'
     hist2-blk = log --all --graph --pretty=format:'%h%d | %ad (%ar), %an %n''          * %s%n''            %b%n''%GG%n''-----------------------------------------------'
 	bhist-blk = log --graph --pretty=format:'%h%d %s [%an, %ar]'
 	bhist2-blk = log --graph --pretty=format:'%h%d | %ad (%ar), %an %n''          * %s%n''            %b%n''%GG%n''-----------------------------------------------'
