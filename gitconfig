@@ -34,3 +34,5 @@
 	autotag = v*.*.*
 [branch]
 	autosetuprebase = always
+[credential]
+	helper = cache
