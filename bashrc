@@ -90,9 +90,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='ls -hal'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -124,3 +122,9 @@ fi
 
 # Python support
 export PYTHONPATH=$HOME/dev:$PYTHONPATH
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# Run X apps from tty
+xhost local:mpromber > /dev/null
