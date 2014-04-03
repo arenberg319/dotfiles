@@ -7,3 +7,9 @@
 [submodule "vim"]
     path = vim
     url = https://github.com/brianclements/vim.git
+[submodule "zsh"]
+	path = zsh
+	url = https://github.com/brianclements/zsh.git
+[submodule "z"]
+	path = z
+	url = https://github.com/rupa/z.git
