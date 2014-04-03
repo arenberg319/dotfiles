@@ -128,3 +128,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Run X apps from tty
 xhost local:mpromber > /dev/null
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
