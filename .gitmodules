@@ -13,3 +13,6 @@
 [submodule "z"]
 	path = z
 	url = https://github.com/rupa/z.git
+[submodule "tmuxinator"]
+	path = tmuxinator
+	url = git@github.com:brianclements/tmuxinator.git
