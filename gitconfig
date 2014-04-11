@@ -3,7 +3,7 @@
 	email = brian@brianclements.net
 	signingkey = 0xda859a87
 [core]
-	editor = gvim -f
+	editor = vim
 	ignore = dirty
 	excludesfile = /home/brian/.gitignore_global
 [alias]
