@@ -1,0 +1,4 @@
+Host github.com *.github.com *.github.net
+	HostName github.com
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/brian[at]brianclements.net
