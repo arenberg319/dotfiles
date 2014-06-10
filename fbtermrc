@@ -43,3 +43,6 @@ input-method=
 
 # treat ambiguous width characters as wide
 # ambiguous-wide=yes
+
+# A feature I need that hasn't made it into the mainstream code yet....arg
+# term=fbterm
