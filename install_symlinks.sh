@@ -16,6 +16,7 @@ ln -s $DOTFILES_PATH/vim/vimrc $HOME/.vimrc
 ln -s $DOTFILES_PATH/zsh $HOME/.zsh
 ln -s $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
 ln -s $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
+ln -s $DOTFILES_PATH/powerline $HOME/.powerline
 
 
 # v2.0
