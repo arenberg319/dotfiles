@@ -1,0 +1,7 @@
+default_context:
+    full_name: "Brian Clements"
+    email: "brian@brianclements.net"
+    github_username: "brianclements"
+    github_url_repo_name: "brianclements"
+    license_year: "2014"
+cookiecutters_dir: "/home/brian/.cookiecutters/"

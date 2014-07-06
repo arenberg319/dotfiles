@@ -17,6 +17,7 @@ ln -s $DOTFILES_PATH/zsh $HOME/.zsh
 ln -s $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
 ln -s $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
 ln -s $DOTFILES_PATH/powerline $HOME/.powerline
+ln -s $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
 
 
 # v2.0
