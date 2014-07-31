@@ -13,9 +13,6 @@
 [submodule "z"]
 	path = z
 	url = https://github.com/rupa/z.git
-[submodule "tmuxinator"]
-	path = tmuxinator
-	url = git@github.com:brianclements/tmuxinator.git
 [submodule "tmuxifier"]
 	path = tmuxifier
 	url = git@github.com:jimeh/tmuxifier.git
