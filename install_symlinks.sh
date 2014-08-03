@@ -4,20 +4,20 @@
 DOTFILES_PATH=$HOME/.dotfiles
 
 # dumb version
-ln -s $DOTFILES_PATH/fonts $HOME/.fonts
-ln -s $DOTFILES_PATH/fbtermrc $HOME/.fbtermrc
-ln -s $DOTFILES_PATH/gitconfig $HOME/.gitconfig
-ln -s $DOTFILES_PATH/gitignore_global $HOME/.gitignore_global
-ln -s $DOTFILES_PATH/profile $HOME/.profile
-ln -s $DOTFILES_PATH/tmux.conf $HOME/.tmux.conf
-ln -s $DOTFILES_PATH/tmuxinator $HOME/.tmuxinator
-ln -s $DOTFILES_PATH/vim $HOME/.vim
-ln -s $DOTFILES_PATH/vim/vimrc $HOME/.vimrc
-ln -s $DOTFILES_PATH/zsh $HOME/.zsh
-ln -s $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
-ln -s $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
-ln -s $DOTFILES_PATH/powerline $HOME/.powerline
-ln -s $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
+ln -sf $DOTFILES_PATH/fonts $HOME/.fonts
+ln -sf $DOTFILES_PATH/fbtermrc $HOME/.fbtermrc
+ln -sf $DOTFILES_PATH/gitconfig $HOME/.gitconfig
+ln -sf $DOTFILES_PATH/gitignore_global $HOME/.gitignore_global
+ln -sf $DOTFILES_PATH/profile $HOME/.profile
+ln -sf $DOTFILES_PATH/tmux.conf $HOME/.tmux.conf
+ln -sf $DOTFILES_PATH/vim $HOME/.vim
+ln -sf $DOTFILES_PATH/vim/vimrc $HOME/.vimrc
+ln -sf $DOTFILES_PATH/zsh $HOME/.zsh
+ln -sf $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
+ln -sf $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
+ln -sf $DOTFILES_PATH/powerline $HOME/.powerline
+ln -sf $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
+ln -sf $DOTFILES_PATH/ssh/config $HOME/.ssh/config
 
 
 # v2.0
