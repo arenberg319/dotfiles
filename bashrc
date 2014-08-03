@@ -121,7 +121,7 @@ if [ "$COLORTERM" == "gnome-terminal" ]; then
 fi 
 
 # Python support
-export PYTHONPATH=$HOME/dev:$PYTHONPATH
+export PYTHONPATH=$HOME/dev/lib_projects
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -129,4 +129,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Run X apps from tty
 xhost local:mpromber > /dev/null
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
