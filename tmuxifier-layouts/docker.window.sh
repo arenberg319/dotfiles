@@ -7,15 +7,15 @@
 new_window "docker"
 
 # Split window into panes.
-run_cmd "watch sudo docker images"
+run_cmd "watch docker images"
 split_v 65
-run_cmd "watch sudo docker ps -a"
+run_cmd "watch docker ps -a"
 split_v 50
-run_cmd "sudo true && i && clear"
+run_cmd "i && clear"
 
 select_pane 1
 split_h 40
-run_cmd "sudo true && watch 'df -h | grep var'" 2
+run_cmd "watch 'df -h | grep var'" 2
 
 select_pane 4
 
