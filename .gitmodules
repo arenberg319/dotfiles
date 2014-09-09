@@ -16,3 +16,6 @@
 [submodule "tmuxifier"]
 	path = tmuxifier
 	url = git@github.com:jimeh/tmuxifier.git
+[submodule "cookiecutters/radial_wheel"]
+	path = cookiecutters/radial_wheel
+	url = git@github.com:brianclements/cookiecutter-radial_wheel
