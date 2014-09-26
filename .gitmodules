@@ -13,3 +13,12 @@
 [submodule "z"]
 	path = z
 	url = https://github.com/rupa/z.git
+[submodule "tmuxifier"]
+	path = tmuxifier
+	url = https://github.com/jimeh/tmuxifier.git
+[submodule "cookiecutters/cookiecutter-pyproject"]
+	path = cookiecutters/cookiecutter-pyproject
+	url = https://github.com/brianclements/cookiecutter-pyproject.git
+[submodule "cookiecutters/cookiecutter-radial_wheel"]
+	path = cookiecutters/cookiecutter-radial_wheel
+	url = https://github.com/brianclements/cookiecutter-radial_wheel.git
