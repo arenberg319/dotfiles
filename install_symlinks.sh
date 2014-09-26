@@ -6,6 +6,7 @@ DOTFILES_PATH=$HOME/.dotfiles
 # dumb version
 ln -sf $DOTFILES_PATH/fonts $HOME/.fonts
 ln -sf $DOTFILES_PATH/fbtermrc $HOME/.fbtermrc
+ln -sf $DOTFILES_PATH/bashrc $HOME/.bashrc
 ln -sf $DOTFILES_PATH/gitconfig $HOME/.gitconfig
 ln -sf $DOTFILES_PATH/gitignore_global $HOME/.gitignore_global
 ln -sf $DOTFILES_PATH/profile $HOME/.profile
@@ -17,6 +18,7 @@ ln -sf $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
 ln -sf $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
 ln -sf $DOTFILES_PATH/powerline $HOME/.powerline
 ln -sf $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
+ln -sf $DOTFILES_PATH/cookiecutterrc $HOME/.cookiecutterrc
 ln -sf $DOTFILES_PATH/ssh/config $HOME/.ssh/config
 
 
