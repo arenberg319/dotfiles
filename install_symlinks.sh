@@ -16,6 +16,7 @@ ln -sf $DOTFILES_PATH/vim/vimrc $HOME/.vimrc
 ln -sf $DOTFILES_PATH/zsh $HOME/.zsh
 ln -sf $DOTFILES_PATH/zsh/zshenv $HOME/.zshenv
 ln -sf $DOTFILES_PATH/zsh/zshrc $HOME/.zshrc
+ln -sf $DOTFILES_PATH/zsh/zlogin $HOME/.zlogin
 ln -sf $DOTFILES_PATH/powerline $HOME/.powerline
 ln -sf $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
 ln -sf $DOTFILES_PATH/cookiecutterrc $HOME/.cookiecutterrc
