@@ -42,3 +42,16 @@ Thumbs.db
 *.s??
 *.*.s??
 .*.*.s??
+
+# Sphinx #
+##########
+docs/_build
+
+# Cookiecutter #
+################
+output/
+boilerplate/
+
+# Temporary development folders #
+#################################
+dev-*
