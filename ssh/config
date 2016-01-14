@@ -7,6 +7,7 @@ Host mnemosyne.bcnet
 	PreferredAuthentications password
 	IdentityFile ~/.ssh/brclements
 Host *
+    UseRoaming no
     KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256
     PubkeyAuthentication yes
 	PreferredAuthentications publickey
