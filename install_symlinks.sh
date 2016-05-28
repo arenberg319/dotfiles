@@ -21,6 +21,8 @@ ln -sf $DOTFILES_PATH/powerline $HOME/.powerline
 ln -sf $DOTFILES_PATH/cookiecutters $HOME/.cookiecutters
 ln -sf $DOTFILES_PATH/cookiecutterrc $HOME/.cookiecutterrc
 ln -sf $DOTFILES_PATH/ssh/config $HOME/.ssh/config
+ln -sf $DOTFILES_PATH/editorconfig $HOME/.editorconfig
+ln -sf $DOTFILES_PATH/racketrc $HOME/.racketrc
 
 
 # v2.0
