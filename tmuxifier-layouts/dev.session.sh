@@ -11,7 +11,6 @@ if initialize_session "dev"; then
 
   # Load a defined window layout.
   load_window "vim"
-  load_window "ipython"
 
   # Select the default active window on session creation.
   select_window 1

@@ -12,7 +12,6 @@ if initialize_session "main"; then
   # Load a defined window layout.
   #load_window "example"
   load_window "zsh"
-  load_window "vim"
 
   # Select the default active window on session creation.
   select_window 1
