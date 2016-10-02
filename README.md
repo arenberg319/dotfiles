@@ -15,4 +15,5 @@ These setup instructions assume we're starting from a fresh install.
     until finished.
 * `./install_symlinks.sh`
 * Run `chsh -s $(which zsh)` to make zsh default shell
-* `fc-cache -f -v` to install custom/powerline fonts
+* `fc-cache -f -v` to install custom/powerline/nerd fonts
+
