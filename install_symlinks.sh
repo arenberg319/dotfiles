@@ -23,6 +23,7 @@ ln -sf $DOTFILES_PATH/cookiecutterrc $HOME/.cookiecutterrc
 ln -sf $DOTFILES_PATH/ssh/config $HOME/.ssh/config
 ln -sf $DOTFILES_PATH/editorconfig $HOME/.editorconfig
 ln -sf $DOTFILES_PATH/racketrc $HOME/.racketrc
+ln -sf $DOTFILES_PATH/pentadactylrc $HOME/.pentadactylrc
 
 
 # v2.0
