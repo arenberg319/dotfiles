@@ -5,7 +5,6 @@
 [core]
 	editor = vim
 	ignore = dirty
-	excludesfile = /home/brian/.gitignore_global
 [alias]
 	co = checkout
 	cm = commit -m
@@ -26,6 +25,7 @@
 	stash-unapply = !git stash show -p | git apply -R
 	tags = tag -l -n1
 	cp = cherry-pick
+    find = log --pretty=\"format:%Cgreen%H %Cblue%s%Creset\" --name-status --grep
 [merge]
 	conflictstyle = diff3
 [push]
@@ -36,3 +36,5 @@
 	autosetuprebase = always
 [credential]
 	helper = cache
+[commit]
+    gpgsign = true
