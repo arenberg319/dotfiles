@@ -130,3 +130,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 xhost local:mpromber > /dev/null
 
 PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+
+export EDITOR="vim"
