@@ -2,7 +2,6 @@ Host github.com *.github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/com_github_brianclements_%l
-    KexAlgorithms diffie-hellman-group1-sha1 
 Host *.bcnet *.home
     HostName %h
     IdentityFile ~/.ssh/cloud_brianclements_%l_%u
@@ -11,7 +10,7 @@ Host backup.*.*
     IdentityFile ~/.ssh/cloud_brianclements_%l_backup
 Host *
     UseRoaming no
-    KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256
+    KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256
     PubkeyAuthentication yes
     PreferredAuthentications publickey,password
     HostKeyAlgorithms ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-ed25519,ssh-rsa
